@@ -179,7 +179,7 @@ sudo systemctl restart longjing.service
 
 ```sha256sum 116c66c8cb18b0cb280df0fc52425b250b17e231975f6dce50cc04fbcbbb5612  presentation-longjing.pdf```
 
-Download : [presentation-longing.pdf](https://github.com/samiux/samiux.github.io/blob/master/pdf/presentation-longjing.pdf)
+Download : [presentation-longing.pdf](https://github.com/samiux/samiux.github.io/raw/master/pdf/presentation-longjing.pdf)
 
 <object data="https://github.com/samiux/samiux.github.io/raw/master/pdf/presentation-longjing.pdf" type="application/pdf" width="900px" height="700px">
     <embed src="https://github.com/samiux/samiux.github.io/raw/master/pdf/presentation-longjing.pdf">
