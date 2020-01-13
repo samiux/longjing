@@ -181,7 +181,7 @@ sudo systemctl restart longjing.service
 
 Download : [presentation-longing.pdf](https://github.com/samiux/samiux.github.io/blob/master/pdf/presentation-longjing.pdf)
 
-<object data="https://github.com/samiux/samiux.github.io/blob/master/pdf/presentation-longjing.pdf" type="application/pdf" width="900px" height="700px">
-    <embed src="https://github.com/samiux/samiux.github.io/blob/master/pdf/presentation-longjing.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/samiux/samiux.github.io/blob/master/pdf/presentation-longjing.pdf">Download PDF</a>.</p>
+<object data="https://github.com/samiux/samiux.github.io/raw/master/pdf/presentation-longjing.pdf" type="application/pdf" width="900px" height="700px">
+    <embed src="https://github.com/samiux/samiux.github.io/raw/master/pdf/presentation-longjing.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/samiux/samiux.github.io/raw/master/pdf/presentation-longjing.pdf">Download PDF</a>.</p>
 </object>
