@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# port-resume
+# to flush all port redirect setting
+# Samiux (https://www.infosec-ninjas.com, https://samiux.blogspot.com)
+# MAY 24, 2018
+
+. /etc/longjing/config.conf
+
+echo 0 | sudo tee /proc/sys/net/ipv4/ip_forward
+echo 1 | sudo tee /proc/sys/net/ipv4/conf/*/send_redirects
+
+sudo iptables -t nat -D PREROUTING -i $NET_INF -p tcp --match multiport --dport 80,443 -j REDIRECT --to-port $PORT
+

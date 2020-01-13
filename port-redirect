@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# port-redirect
+# to redirect port 80 and 443 traffic to port 8080 (mitmproxy)
+# Samiux (https://www.infosec-ninjas.com, https://samiux.blogspot.com)
+# MAY 24, 2018
+
+. /etc/longjing/config.conf
+
+echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+echo 0 | sudo tee /proc/sys/net/ipv4/conf/*/send_redirects
+
+sudo iptables -t nat -A PREROUTING -i $NET_INF -p tcp --match multiport --dport 80,443 -j REDIRECT --to-port $PORT
